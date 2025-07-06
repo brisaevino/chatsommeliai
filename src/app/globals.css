@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+/* Barra de anúncio */
+.anuncie-bar {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: #e5e5e5;
+  color: #444;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 0;
+  border-radius: 0 0 8px 8px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 2.5rem;
+}
+/* Reset & base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f6f3 !important;
+  color: #37352f;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Títulos estilo Notion */
+h1, h2, h3, h4, h5, h6, .title-font {
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  color: #222;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 2.2rem;
+  margin-bottom: 1.1rem;
+  line-height: 1.2;
+}
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.25rem; }
+
+/* Header */
+.header {
+  background-color: #5b1e1e;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button {
+  background-color: white;
+  color: #5b1e1e;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+  outline: none;
+}
+
+.button:hover, .button:focus {
+  background-color: #faece4;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.button:active {
+  background-color: #e5d0c3;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+  transform: translateY(1px) scale(0.98);
+}
+
+.button:hover {
+  background-color: #faece4;
+}
+
+/* Hero */
+
+.hero {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+
+.hero h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.cta-button {
+  background-color: #5b1e1e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #7d2f2f;
+}
