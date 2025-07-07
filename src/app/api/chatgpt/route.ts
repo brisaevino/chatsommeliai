@@ -1,5 +1,5 @@
-import { systemPrompt } from "../lib/prompt";
 
+import { systemPrompt } from "@/lib/prompt";
 export async function POST(req: Request) {
   try {
     const body = await req.json();

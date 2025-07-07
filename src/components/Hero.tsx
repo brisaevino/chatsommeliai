@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import NewsletterForm from "./NewsletterForm";
 import Footer from "./Footer";
 import ReactMarkdown from "react-markdown";
-import { systemPrompt } from "../lib/prompt";
+import { systemPrompt } from "@/lib/prompt";
 
 const PROMPT_INICIAL = `Oi, seja muito bem-vindo(a)! Eu sou o **SommeliAI**, seu sommelier digital, e estou aqui pra deixar sua escolha de vinho mais gostosa do que gole em noite de sexta-feira! 😄
 Me conta, como posso te ajudar hoje?
